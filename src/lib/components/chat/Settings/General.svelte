@@ -14,7 +14,7 @@
 	export let getModels: Function;
 
 	// General
-	let themes = ['dark', 'light', 'oled-dark', 'rose-pine', 'rose-pine-dawn'];
+	let themes = ['dark', 'light', 'oled-dark', 'rose-pine', 'rose-pine-dawn', 'nord', 'dracula', 'solarized-dark', 'monokai'];
 	let selectedTheme = 'system';
 
 	let languages: Awaited<ReturnType<typeof getLanguages>> = [];
@@ -131,6 +131,14 @@
 			themeToApply = 'rose-pine';
 		} else if (_theme === 'rose-pine-dawn') {
 			themeToApply = 'rose-pine-dawn';
+		} else if (_theme === 'nord') {
+			themeToApply = 'nord';
+		} else if (_theme === 'dracula') {
+			themeToApply = 'dracula';
+		} else if (_theme === 'solarized-dark') {
+			themeToApply = 'solarized-dark';
+		} else if (_theme === 'monokai') {
+			themeToApply = 'monokai';
 		} else if (_theme === 'system') {
 			themeToApply = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 		}
@@ -176,7 +184,15 @@
 									? '#191724'
 									: _theme === 'rose-pine-dawn'
 										? '#faf4ed'
-										: '#ffffff'
+										: _theme === 'nord'
+											? '#2e3440'
+											: _theme === 'dracula'
+												? '#282a36'
+												: _theme === 'solarized-dark'
+													? '#002b36'
+													: _theme === 'monokai'
+														? '#272822'
+														: '#ffffff'
 				);
 			}
 		}
@@ -226,6 +242,10 @@
 						<option value="her">🌷 Her</option>
 						<option value="rose-pine">🪻 {$i18n.t('Rosé Pine')}</option>
 						<option value="rose-pine-dawn">🌷 {$i18n.t('Rosé Pine Dawn')}</option>
+						<option value="nord">❄️ Nord</option>
+						<option value="dracula">🧛 Dracula</option>
+						<option value="solarized-dark">☀️ Solarized Dark</option>
+						<option value="monokai">💻 Monokai</option>
 					</select>
 				</div>
 			</div>

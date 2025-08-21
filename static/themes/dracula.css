@@ -1,0 +1,145 @@
+/* Dracula Theme - Popular dark theme with purple accents */
+.dracula * {
+	color: #f8f8f2 !important;
+	stroke: #bd93f9 !important;
+}
+
+.dracula .app > * {
+	background-color: #282a36 !important;
+}
+
+.dracula #nav {
+	background-color: #21222c;
+}
+
+.dracula .py-2\.5.my-auto.flex.flex-col.justify-between.h-screen {
+	background: #21222c;
+}
+
+.dracula .bg-white.dark\:bg-gray-800 {
+	background: #44475a;
+}
+
+.dracula .w-4.h-4 {
+	fill: #bd93f9;
+}
+
+.dracula #chat-input {
+	background: #44475a;
+	margin: 0.3rem;
+	padding: 0.5rem;
+	border: 1px solid #6272a4;
+}
+
+.dracula .bg-gradient-to-t.from-white.dark\:from-gray-800.from-40\%.pb-2 {
+	background: #44475a !important;
+	padding-top: 0.6rem;
+}
+
+.dracula
+	.text-white.bg-gray-100.dark\:text-gray-800.dark\:bg-gray-600.disabled.transition.rounded-lg.p-1.mr-0\.5.w-7.h-7.self-center {
+	background-color: #6272a4;
+	transition: background-color 0.2s ease-out linear;
+}
+
+.dracula
+	.bg-black.text-white.hover\:bg-gray-900.dark\:bg-white.dark\:text-black.dark\:hover\:bg-gray-100.transition.rounded-lg.p-1.mr-0\.5.w-7.h-7.self-center {
+	background-color: #bd93f9;
+	color: #282a36 !important;
+	transition: background-color 0.2s ease-out linear;
+}
+
+.dracula
+	.bg-black.text-white.hover\:bg-gray-900.dark\:bg-white.dark\:text-black.dark\:hover\:bg-gray-100.transition.rounded-lg.p-1.mr-0\.5.w-7.h-7.self-center
+	> * {
+	fill: #282a36 !important;
+	transition: fill 0.2s ease-out linear;
+}
+
+.dracula .flex.py-2\.5.px-3\.5.w-full.hover\:bg-gray-800.transition:hover {
+	background: #44475a;
+}
+
+.dracula .m-auto.rounded-xl.max-w-full.w-\[40rem\].mx-2.bg-gray-50.dark\:bg-gray-900.shadow-3xl {
+	background-color: #44475a;
+}
+
+.dracula
+	.w-full.rounded.p-4.text-sm.dark\:text-gray-300.dark\:bg-gray-800.outline-none.resize-none {
+	background-color: #44475a;
+	border: 1px solid #6272a4;
+}
+
+.dracula
+	.w-full.rounded.py-2.px-4.text-sm.dark\:text-gray-300.dark\:bg-gray-800.outline-none.svelte-1vx7r9s {
+	background-color: #44475a;
+	border: 1px solid #6272a4;
+}
+
+.dracula
+	.px-2\.5.py-2\.5.min-w-fit.rounded-lg.flex-1.md\:flex-none.flex.text-right.transition.bg-gray-200.dark\:bg-gray-700 {
+	background-color: #44475a;
+}
+
+.dracula
+	.px-2\.5.py-2\.5.min-w-fit.rounded-lg.flex-1.md\:flex-none.flex.text-right.transition.hover\:bg-gray-300.dark\:hover\:bg-gray-800:hover {
+	background-color: #6272a4;
+}
+
+.dracula .px-4.py-2.bg-emerald-600.hover\:bg-emerald-700.text-gray-100.transition.rounded {
+	background-color: #50fa7b;
+	color: #282a36 !important;
+}
+
+.dracula #chat-search > * {
+	background-color: #44475a !important;
+	border: 1px solid #6272a4 !important;
+}
+
+.dracula .svelte-1ee93ns {
+	--primary: #bd93f9 !important;
+	--secondary: #21222c !important;
+}
+
+.dracula .hover\:bg-gray-900:hover {
+	--tw-bg-opacity: 1;
+	background-color: rgb(68 71 90 / var(--tw-bg-opacity));
+}
+
+.dracula .text-xs.text-gray-700.uppercase.bg-gray-50.dark\:bg-gray-700.dark\:text-gray-400 {
+	background-color: #44475a;
+	color: #f8f8f2 !important;
+}
+
+.dracula .scrollbar-hidden.relative.overflow-x-auto.whitespace-nowrap.svelte-3g4avz {
+	border-radius: 16px 16px 0 0;
+}
+
+.dracula .base.enter.svelte-ug60r4 {
+	background-color: #bd93f9;
+}
+
+/* Dracula specific accents for different elements */
+.dracula .text-blue-600 {
+	color: #8be9fd !important; /* Cyan */
+}
+
+.dracula .text-green-600 {
+	color: #50fa7b !important; /* Green */
+}
+
+.dracula .text-red-600 {
+	color: #ff5555 !important; /* Red */
+}
+
+.dracula .text-yellow-600 {
+	color: #f1fa8c !important; /* Yellow */
+}
+
+.dracula .text-purple-600 {
+	color: #bd93f9 !important; /* Purple */
+}
+
+.dracula .text-pink-600 {
+	color: #ff79c6 !important; /* Pink */
+}
