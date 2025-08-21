@@ -25,6 +25,8 @@
 		/>
 		<script src="/static/loader.js" defer></script>
 		<link rel="stylesheet" href="/static/custom.css" />
+		<link rel="stylesheet" href="/static/themes/rosepine.css" />
+		<link rel="stylesheet" href="/static/themes/rosepine-dawn.css" />
 
 		<script>
 			function resizeIframe(obj) {
@@ -58,6 +60,12 @@
 				} else if (localStorage.theme === 'her') {
 					document.documentElement.classList.add('her');
 					metaThemeColorTag.setAttribute('content', '#983724');
+				} else if (localStorage.theme === 'rose-pine') {
+					document.documentElement.classList.add('rose-pine');
+					metaThemeColorTag.setAttribute('content', '#191724');
+				} else if (localStorage.theme === 'rose-pine-dawn') {
+					document.documentElement.classList.add('rose-pine-dawn');
+					metaThemeColorTag.setAttribute('content', '#faf4ed');
 				} else {
 					document.documentElement.classList.add('dark');
 					metaThemeColorTag.setAttribute('content', '#171717');

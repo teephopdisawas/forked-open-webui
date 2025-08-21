@@ -14,7 +14,7 @@
 	export let getModels: Function;
 
 	// General
-	let themes = ['dark', 'light', 'oled-dark'];
+	let themes = ['dark', 'light', 'oled-dark', 'rose-pine', 'rose-pine-dawn'];
 	let selectedTheme = 'system';
 
 	let languages: Awaited<ReturnType<typeof getLanguages>> = [];
@@ -120,9 +120,18 @@
 	});
 
 	const applyTheme = (_theme: string) => {
-		let themeToApply = _theme === 'oled-dark' ? 'dark' : _theme === 'her' ? 'light' : _theme;
-
-		if (_theme === 'system') {
+		let themeToApply = _theme;
+		
+		// Handle theme mappings for base themes
+		if (_theme === 'oled-dark') {
+			themeToApply = 'dark';
+		} else if (_theme === 'her') {
+			themeToApply = 'light'; 
+		} else if (_theme === 'rose-pine') {
+			themeToApply = 'rose-pine';
+		} else if (_theme === 'rose-pine-dawn') {
+			themeToApply = 'rose-pine-dawn';
+		} else if (_theme === 'system') {
 			themeToApply = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 		}
 
@@ -163,7 +172,11 @@
 							? '#000000'
 							: _theme === 'her'
 								? '#983724'
-								: '#ffffff'
+								: _theme === 'rose-pine'
+									? '#191724'
+									: _theme === 'rose-pine-dawn'
+										? '#faf4ed'
+										: '#ffffff'
 				);
 			}
 		}
@@ -211,8 +224,8 @@
 						<option value="oled-dark">🌃 {$i18n.t('OLED Dark')}</option>
 						<option value="light">☀️ {$i18n.t('Light')}</option>
 						<option value="her">🌷 Her</option>
-						<!-- <option value="rose-pine dark">🪻 {$i18n.t('Rosé Pine')}</option>
-						<option value="rose-pine-dawn light">🌷 {$i18n.t('Rosé Pine Dawn')}</option> -->
+						<option value="rose-pine">🪻 {$i18n.t('Rosé Pine')}</option>
+						<option value="rose-pine-dawn">🌷 {$i18n.t('Rosé Pine Dawn')}</option>
 					</select>
 				</div>
 			</div>
