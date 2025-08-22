@@ -623,7 +623,7 @@
 					</span>
 				</Tooltip>
 
-				{#if message.timestamp}
+				{#if message.timestamp && ($settings?.showMessageTimestamps ?? true)}
 					<div
 						class=" self-center text-xs invisible group-hover:visible text-gray-400 font-medium first-letter:capitalize ml-0.5 translate-y-[1px]"
 					>
