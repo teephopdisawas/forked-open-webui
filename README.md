@@ -1,18 +1,22 @@
 # Open WebUI 👋 [FORKED]
 
-![GitHub stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social)
-![GitHub forks](https://img.shields.io/github/forks/open-webui/open-webui?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/open-webui/open-webui?style=social)
-![GitHub repo size](https://img.shields.io/github/repo-size/open-webui/open-webui)
-![GitHub language count](https://img.shields.io/github/languages/count/open-webui/open-webui)
-![GitHub top language](https://img.shields.io/github/languages/top/open-webui/open-webui)
-![GitHub last commit](https://img.shields.io/github/last-commit/open-webui/open-webui?color=red)
-[![Discord](https://img.shields.io/badge/Discord-Open_WebUI-blue?logo=discord&logoColor=white)](https://discord.gg/5rJgQTnV4s)
+![GitHub stars](https://img.shields.io/github/stars/teephopdisawas/forked-open-webui?style=social)
+![GitHub forks](https://img.shields.io/github/forks/teephopdisawas/forked-open-webui?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/teephopdisawas/forked-open-webui?style=social)
+![GitHub repo size](https://img.shields.io/github/repo-size/teephopdisawas/forked-open-webui)
+![GitHub language count](https://img.shields.io/github/languages/count/teephopdisawas/forked-open-webui)
+![GitHub top language](https://img.shields.io/github/languages/top/teephopdisawas/forked-open-webui)
+![GitHub last commit](https://img.shields.io/github/last-commit/teephopdisawas/forked-open-webui?color=red)
+[![Discord](https://img.shields.io/badge/Discord-Open_WebUI_Community-blue?logo=discord&logoColor=white)](https://discord.gg/5rJgQTnV4s)
 [![](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/tjbck)
 
 **Open WebUI is an [extensible](https://docs.openwebui.com/features/plugin/), feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline.** It supports various LLM runners like **Ollama** and **OpenAI-compatible APIs**, with **built-in inference engine** for RAG, making it a **powerful AI deployment solution**.
 
-Passionate about open-source AI? [Join our team →](https://careers.openwebui.com/)
+## About This Fork 🍴
+
+This is a fork of the original [Open WebUI](https://github.com/open-webui/open-webui) project. This fork maintains the same core functionality and features as the original project while potentially including additional customizations or experimental features.
+
+For the latest official releases and main development, please visit the [original Open WebUI repository](https://github.com/open-webui/open-webui).
 
 ![Open WebUI Demo](./demo.gif)
 
@@ -67,6 +71,8 @@ Want to learn more about Open WebUI's features? Check out our [Open WebUI docume
 
 ## Sponsors 🙌
 
+> **Note**: The sponsors listed below are supporters of the original [Open WebUI project](https://github.com/open-webui/open-webui). This fork acknowledges and appreciates their contribution to the open-source community.
+
 #### Emerald
 
 <table>
@@ -104,7 +110,7 @@ Want to learn more about Open WebUI's features? Check out our [Open WebUI docume
 
 ---
 
-We are incredibly grateful for the generous support of our sponsors. Their contributions help us to maintain and improve our project, ensuring we can continue to deliver quality work to our community. Thank you!
+We acknowledge and appreciate the generous support these sponsors provide to the original Open WebUI project. Their contributions help maintain and improve the project, ensuring continued delivery of quality work to the community.
 
 ## How to Install 🚀
 
@@ -244,7 +250,7 @@ export HF_HUB_OFFLINE=1
 
 ## What's Next? 🌟
 
-Discover upcoming features on our roadmap in the [Open WebUI Documentation](https://docs.openwebui.com/roadmap/).
+Discover upcoming features on the original project's roadmap in the [Open WebUI Documentation](https://docs.openwebui.com/roadmap/). This fork may include additional features or follow a different development timeline.
 
 ## License 📜
 
@@ -252,19 +258,21 @@ This project is licensed under the [Open WebUI License](LICENSE), a revised BSD-
 
 ## Support 💬
 
-If you have any questions, suggestions, or need assistance, please open an issue or join our
-[Open WebUI Discord community](https://discord.gg/5rJgQTnV4s) to connect with us! 🤝
+For questions, suggestions, or assistance related to Open WebUI functionality, you can:
+- Open an issue in this fork's repository for fork-specific questions
+- Join the original [Open WebUI Discord community](https://discord.gg/5rJgQTnV4s) for general Open WebUI support
+- Check the original project's issues at [open-webui/open-webui](https://github.com/open-webui/open-webui/issues) for common problems
 
 ## Star History
 
-<a href="https://star-history.com/#open-webui/open-webui&Date">
+<a href="https://star-history.com/#teephopdisawas/forked-open-webui&Date">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=open-webui/open-webui&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=open-webui/open-webui&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=open-webui/open-webui&type=Date" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=teephopdisawas/forked-open-webui&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=teephopdisawas/forked-open-webui&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=teephopdisawas/forked-open-webui&type=Date" />
   </picture>
 </a>
 
 ---
 
-Created by [Timothy Jaeryang Baek](https://github.com/tjbck) - Let's make Open WebUI even more amazing together! 💪
+Original Open WebUI created by [Timothy Jaeryang Baek](https://github.com/tjbck) - Let's make Open WebUI even more amazing together! 💪
