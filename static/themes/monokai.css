@@ -1,0 +1,149 @@
+/* Monokai Theme - Popular coding theme with green and yellow accents */
+.monokai * {
+	color: #f8f8f2 !important;
+	stroke: #a6e22e !important;
+}
+
+.monokai .app > * {
+	background-color: #272822 !important;
+}
+
+.monokai #nav {
+	background-color: #1e1f1c;
+}
+
+.monokai .py-2\.5.my-auto.flex.flex-col.justify-between.h-screen {
+	background: #1e1f1c;
+}
+
+.monokai .bg-white.dark\:bg-gray-800 {
+	background: #3e3d32;
+}
+
+.monokai .w-4.h-4 {
+	fill: #a6e22e;
+}
+
+.monokai #chat-input {
+	background: #3e3d32;
+	margin: 0.3rem;
+	padding: 0.5rem;
+	border: 1px solid #75715e;
+}
+
+.monokai .bg-gradient-to-t.from-white.dark\:from-gray-800.from-40\%.pb-2 {
+	background: #3e3d32 !important;
+	padding-top: 0.6rem;
+}
+
+.monokai
+	.text-white.bg-gray-100.dark\:text-gray-800.dark\:bg-gray-600.disabled.transition.rounded-lg.p-1.mr-0\.5.w-7.h-7.self-center {
+	background-color: #75715e;
+	transition: background-color 0.2s ease-out linear;
+}
+
+.monokai
+	.bg-black.text-white.hover\:bg-gray-900.dark\:bg-white.dark\:text-black.dark\:hover\:bg-gray-100.transition.rounded-lg.p-1.mr-0\.5.w-7.h-7.self-center {
+	background-color: #a6e22e;
+	color: #272822 !important;
+	transition: background-color 0.2s ease-out linear;
+}
+
+.monokai
+	.bg-black.text-white.hover\:bg-gray-900.dark\:bg-white.dark\:text-black.dark\:hover\:bg-gray-100.transition.rounded-lg.p-1.mr-0\.5.w-7.h-7.self-center
+	> * {
+	fill: #272822 !important;
+	transition: fill 0.2s ease-out linear;
+}
+
+.monokai .flex.py-2\.5.px-3\.5.w-full.hover\:bg-gray-800.transition:hover {
+	background: #3e3d32;
+}
+
+.monokai .m-auto.rounded-xl.max-w-full.w-\[40rem\].mx-2.bg-gray-50.dark\:bg-gray-900.shadow-3xl {
+	background-color: #3e3d32;
+}
+
+.monokai
+	.w-full.rounded.p-4.text-sm.dark\:text-gray-300.dark\:bg-gray-800.outline-none.resize-none {
+	background-color: #3e3d32;
+	border: 1px solid #75715e;
+}
+
+.monokai
+	.w-full.rounded.py-2.px-4.text-sm.dark\:text-gray-300.dark\:bg-gray-800.outline-none.svelte-1vx7r9s {
+	background-color: #3e3d32;
+	border: 1px solid #75715e;
+}
+
+.monokai
+	.px-2\.5.py-2\.5.min-w-fit.rounded-lg.flex-1.md\:flex-none.flex.text-right.transition.bg-gray-200.dark\:bg-gray-700 {
+	background-color: #3e3d32;
+}
+
+.monokai
+	.px-2\.5.py-2\.5.min-w-fit.rounded-lg.flex-1.md\:flex-none.flex.text-right.transition.hover\:bg-gray-300.dark\:hover\:bg-gray-800:hover {
+	background-color: #75715e;
+}
+
+.monokai .px-4.py-2.bg-emerald-600.hover\:bg-emerald-700.text-gray-100.transition.rounded {
+	background-color: #a6e22e;
+	color: #272822 !important;
+}
+
+.monokai #chat-search > * {
+	background-color: #3e3d32 !important;
+	border: 1px solid #75715e !important;
+}
+
+.monokai .svelte-1ee93ns {
+	--primary: #a6e22e !important;
+	--secondary: #1e1f1c !important;
+}
+
+.monokai .hover\:bg-gray-900:hover {
+	--tw-bg-opacity: 1;
+	background-color: rgb(62 61 50 / var(--tw-bg-opacity));
+}
+
+.monokai .text-xs.text-gray-700.uppercase.bg-gray-50.dark\:bg-gray-700.dark\:text-gray-400 {
+	background-color: #3e3d32;
+	color: #f8f8f2 !important;
+}
+
+.monokai .scrollbar-hidden.relative.overflow-x-auto.whitespace-nowrap.svelte-3g4avz {
+	border-radius: 16px 16px 0 0;
+}
+
+.monokai .base.enter.svelte-ug60r4 {
+	background-color: #a6e22e;
+}
+
+/* Monokai specific color accents */
+.monokai .text-blue-600 {
+	color: #66d9ef !important; /* Cyan/Blue */
+}
+
+.monokai .text-green-600 {
+	color: #a6e22e !important; /* Green */
+}
+
+.monokai .text-red-600 {
+	color: #f92672 !important; /* Pink/Red */
+}
+
+.monokai .text-yellow-600 {
+	color: #e6db74 !important; /* Yellow */
+}
+
+.monokai .text-purple-600 {
+	color: #ae81ff !important; /* Purple */
+}
+
+.monokai .text-pink-600 {
+	color: #f92672 !important; /* Pink */
+}
+
+.monokai .text-orange-600 {
+	color: #fd971f !important; /* Orange */
+}

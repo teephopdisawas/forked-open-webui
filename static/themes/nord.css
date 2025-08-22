@@ -1,0 +1,114 @@
+/* Nord Theme - Popular arctic, north-bluish color palette */
+.nord * {
+	color: #d8dee9 !important;
+	stroke: #81a1c1 !important;
+}
+
+.nord .app > * {
+	background-color: #2e3440 !important;
+}
+
+.nord #nav {
+	background-color: #3b4252;
+}
+
+.nord .py-2\.5.my-auto.flex.flex-col.justify-between.h-screen {
+	background: #3b4252;
+}
+
+.nord .bg-white.dark\:bg-gray-800 {
+	background: #434c5e;
+}
+
+.nord .w-4.h-4 {
+	fill: #88c0d0;
+}
+
+.nord #chat-input {
+	background: #4c566a;
+	margin: 0.3rem;
+	padding: 0.5rem;
+}
+
+.nord .bg-gradient-to-t.from-white.dark\:from-gray-800.from-40\%.pb-2 {
+	background: #434c5e !important;
+	padding-top: 0.6rem;
+}
+
+.nord
+	.text-white.bg-gray-100.dark\:text-gray-800.dark\:bg-gray-600.disabled.transition.rounded-lg.p-1.mr-0\.5.w-7.h-7.self-center {
+	background-color: #5e81ac;
+	transition: background-color 0.2s ease-out linear;
+}
+
+.nord
+	.bg-black.text-white.hover\:bg-gray-900.dark\:bg-white.dark\:text-black.dark\:hover\:bg-gray-100.transition.rounded-lg.p-1.mr-0\.5.w-7.h-7.self-center {
+	background-color: #5e81ac;
+	transition: background-color 0.2s ease-out linear;
+}
+
+.nord
+	.bg-black.text-white.hover\:bg-gray-900.dark\:bg-white.dark\:text-black.dark\:hover\:bg-gray-100.transition.rounded-lg.p-1.mr-0\.5.w-7.h-7.self-center
+	> * {
+	fill: #88c0d0 !important;
+	transition: fill 0.2s ease-out linear;
+}
+
+.nord .flex.py-2\.5.px-3\.5.w-full.hover\:bg-gray-800.transition:hover {
+	background: #4c566a;
+}
+
+.nord .m-auto.rounded-xl.max-w-full.w-\[40rem\].mx-2.bg-gray-50.dark\:bg-gray-900.shadow-3xl {
+	background-color: #434c5e;
+}
+
+.nord
+	.w-full.rounded.p-4.text-sm.dark\:text-gray-300.dark\:bg-gray-800.outline-none.resize-none {
+	background-color: #4c566a;
+}
+
+.nord
+	.w-full.rounded.py-2.px-4.text-sm.dark\:text-gray-300.dark\:bg-gray-800.outline-none.svelte-1vx7r9s {
+	background-color: #4c566a;
+}
+
+.nord
+	.px-2\.5.py-2\.5.min-w-fit.rounded-lg.flex-1.md\:flex-none.flex.text-right.transition.bg-gray-200.dark\:bg-gray-700 {
+	background-color: #4c566a;
+}
+
+.nord
+	.px-2\.5.py-2\.5.min-w-fit.rounded-lg.flex-1.md\:flex-none.flex.text-right.transition.hover\:bg-gray-300.dark\:hover\:bg-gray-800:hover {
+	background-color: #5e81ac;
+}
+
+.nord .px-4.py-2.bg-emerald-600.hover\:bg-emerald-700.text-gray-100.transition.rounded {
+	background-color: #5e81ac;
+}
+
+.nord #chat-search > * {
+	background-color: #4c566a !important;
+}
+
+.nord .svelte-1ee93ns {
+	--primary: #5e81ac !important;
+	--secondary: #3b4252 !important;
+}
+
+.nord .hover\:bg-gray-900:hover {
+	--tw-bg-opacity: 1;
+	background-color: rgb(76 86 106 / var(--tw-bg-opacity));
+}
+
+.nord .text-xs.text-gray-700.uppercase.bg-gray-50.dark\:bg-gray-700.dark\:text-gray-400 {
+	background-color: #4c566a;
+	color: #d8dee9 !important;
+}
+
+.nord .scrollbar-hidden.relative.overflow-x-auto.whitespace-nowrap.svelte-3g4avz {
+	border-radius: 16px 16px 0 0;
+}
+
+.nord .base.enter.svelte-ug60r4 {
+	background-color: #5e81ac;
+}

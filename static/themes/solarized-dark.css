@@ -1,0 +1,152 @@
+/* Solarized Dark Theme - Precise colors designed to work well in all lighting conditions */
+.solarized-dark * {
+	color: #839496 !important;
+	stroke: #268bd2 !important;
+}
+
+.solarized-dark .app > * {
+	background-color: #002b36 !important;
+}
+
+.solarized-dark #nav {
+	background-color: #073642;
+}
+
+.solarized-dark .py-2\.5.my-auto.flex.flex-col.justify-between.h-screen {
+	background: #073642;
+}
+
+.solarized-dark .bg-white.dark\:bg-gray-800 {
+	background: #073642;
+}
+
+.solarized-dark .w-4.h-4 {
+	fill: #268bd2;
+}
+
+.solarized-dark #chat-input {
+	background: #073642;
+	margin: 0.3rem;
+	padding: 0.5rem;
+	border: 1px solid #586e75;
+}
+
+.solarized-dark .bg-gradient-to-t.from-white.dark\:from-gray-800.from-40\%.pb-2 {
+	background: #073642 !important;
+	padding-top: 0.6rem;
+}
+
+.solarized-dark
+	.text-white.bg-gray-100.dark\:text-gray-800.dark\:bg-gray-600.disabled.transition.rounded-lg.p-1.mr-0\.5.w-7.h-7.self-center {
+	background-color: #586e75;
+	transition: background-color 0.2s ease-out linear;
+}
+
+.solarized-dark
+	.bg-black.text-white.hover\:bg-gray-900.dark\:bg-white.dark\:text-black.dark\:hover\:bg-gray-100.transition.rounded-lg.p-1.mr-0\.5.w-7.h-7.self-center {
+	background-color: #268bd2;
+	color: #002b36 !important;
+	transition: background-color 0.2s ease-out linear;
+}
+
+.solarized-dark
+	.bg-black.text-white.hover\:bg-gray-900.dark\:bg-white.dark\:text-black.dark\:hover\:bg-gray-100.transition.rounded-lg.p-1.mr-0\.5.w-7.h-7.self-center
+	> * {
+	fill: #002b36 !important;
+	transition: fill 0.2s ease-out linear;
+}
+
+.solarized-dark .flex.py-2\.5.px-3\.5.w-full.hover\:bg-gray-800.transition:hover {
+	background: #586e75;
+}
+
+.solarized-dark .m-auto.rounded-xl.max-w-full.w-\[40rem\].mx-2.bg-gray-50.dark\:bg-gray-900.shadow-3xl {
+	background-color: #073642;
+}
+
+.solarized-dark
+	.w-full.rounded.p-4.text-sm.dark\:text-gray-300.dark\:bg-gray-800.outline-none.resize-none {
+	background-color: #073642;
+	border: 1px solid #586e75;
+}
+
+.solarized-dark
+	.w-full.rounded.py-2.px-4.text-sm.dark\:text-gray-300.dark\:bg-gray-800.outline-none.svelte-1vx7r9s {
+	background-color: #073642;
+	border: 1px solid #586e75;
+}
+
+.solarized-dark
+	.px-2\.5.py-2\.5.min-w-fit.rounded-lg.flex-1.md\:flex-none.flex.text-right.transition.bg-gray-200.dark\:bg-gray-700 {
+	background-color: #073642;
+}
+
+.solarized-dark
+	.px-2\.5.py-2\.5.min-w-fit.rounded-lg.flex-1.md\:flex-none.flex.text-right.transition.hover\:bg-gray-300.dark\:hover\:bg-gray-800:hover {
+	background-color: #586e75;
+}
+
+.solarized-dark .px-4.py-2.bg-emerald-600.hover\:bg-emerald-700.text-gray-100.transition.rounded {
+	background-color: #859900; /* Solarized green */
+}
+
+.solarized-dark #chat-search > * {
+	background-color: #073642 !important;
+	border: 1px solid #586e75 !important;
+}
+
+.solarized-dark .svelte-1ee93ns {
+	--primary: #268bd2 !important;
+	--secondary: #073642 !important;
+}
+
+.solarized-dark .hover\:bg-gray-900:hover {
+	--tw-bg-opacity: 1;
+	background-color: rgb(7 54 66 / var(--tw-bg-opacity));
+}
+
+.solarized-dark .text-xs.text-gray-700.uppercase.bg-gray-50.dark\:bg-gray-700.dark\:text-gray-400 {
+	background-color: #073642;
+	color: #839496 !important;
+}
+
+.solarized-dark .scrollbar-hidden.relative.overflow-x-auto.whitespace-nowrap.svelte-3g4avz {
+	border-radius: 16px 16px 0 0;
+}
+
+.solarized-dark .base.enter.svelte-ug60r4 {
+	background-color: #268bd2;
+}
+
+/* Solarized specific color accents */
+.solarized-dark .text-blue-600 {
+	color: #268bd2 !important; /* Blue */
+}
+
+.solarized-dark .text-green-600 {
+	color: #859900 !important; /* Green */
+}
+
+.solarized-dark .text-red-600 {
+	color: #dc322f !important; /* Red */
+}
+
+.solarized-dark .text-yellow-600 {
+	color: #b58900 !important; /* Yellow */
+}
+
+.solarized-dark .text-purple-600 {
+	color: #6c71c4 !important; /* Violet */
+}
+
+.solarized-dark .text-pink-600 {
+	color: #d33682 !important; /* Magenta */
+}
+
+.solarized-dark .text-orange-600 {
+	color: #cb4b16 !important; /* Orange */
+}
+
+.solarized-dark .text-cyan-600 {
+	color: #2aa198 !important; /* Cyan */
+}

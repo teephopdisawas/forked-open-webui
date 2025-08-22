@@ -25,6 +25,12 @@
 		/>
 		<script src="/static/loader.js" defer></script>
 		<link rel="stylesheet" href="/static/custom.css" />
+		<link rel="stylesheet" href="/static/themes/rosepine.css" />
+		<link rel="stylesheet" href="/static/themes/rosepine-dawn.css" />
+		<link rel="stylesheet" href="/static/themes/nord.css" />
+		<link rel="stylesheet" href="/static/themes/dracula.css" />
+		<link rel="stylesheet" href="/static/themes/solarized-dark.css" />
+		<link rel="stylesheet" href="/static/themes/monokai.css" />
 
 		<script>
 			function resizeIframe(obj) {
@@ -58,6 +64,24 @@
 				} else if (localStorage.theme === 'her') {
 					document.documentElement.classList.add('her');
 					metaThemeColorTag.setAttribute('content', '#983724');
+				} else if (localStorage.theme === 'rose-pine') {
+					document.documentElement.classList.add('rose-pine');
+					metaThemeColorTag.setAttribute('content', '#191724');
+				} else if (localStorage.theme === 'rose-pine-dawn') {
+					document.documentElement.classList.add('rose-pine-dawn');
+					metaThemeColorTag.setAttribute('content', '#faf4ed');
+				} else if (localStorage.theme === 'nord') {
+					document.documentElement.classList.add('nord');
+					metaThemeColorTag.setAttribute('content', '#2e3440');
+				} else if (localStorage.theme === 'dracula') {
+					document.documentElement.classList.add('dracula');
+					metaThemeColorTag.setAttribute('content', '#282a36');
+				} else if (localStorage.theme === 'solarized-dark') {
+					document.documentElement.classList.add('solarized-dark');
+					metaThemeColorTag.setAttribute('content', '#002b36');
+				} else if (localStorage.theme === 'monokai') {
+					document.documentElement.classList.add('monokai');
+					metaThemeColorTag.setAttribute('content', '#272822');
 				} else {
 					document.documentElement.classList.add('dark');
 					metaThemeColorTag.setAttribute('content', '#171717');
