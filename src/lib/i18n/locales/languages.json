@@ -8,6 +8,14 @@
 		"title": "English (GB)"
 	},
 	{
+		"code": "en-GZ",
+		"title": "English (Gen Z)"
+	},
+	{
+		"code": "en-GA",
+		"title": "English (Gen Alpha)"
+	},
+	{
 		"code": "ar",
 		"title": "Arabic (العربية)"
 	},
@@ -70,6 +78,10 @@
 	{
 		"code": "fr-FR",
 		"title": "French (France)"
+	},
+	{
+		"code": "fr-VL",
+		"title": "French (Verlan)"
 	},
 	{
 		"code": "gl-ES",
