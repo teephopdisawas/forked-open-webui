@@ -1,4 +1,6 @@
-# Open WebUI 👋 [FORKED]
+# Open WebUI 💫 [FORKED] ✨
+
+*your ai companion that actually gets you* 
 
 <div align="center">
 
@@ -16,19 +18,19 @@
 
 ## 🍴 About This Fork
 
-> **Important**: This is a fork of the original [Open WebUI](https://github.com/open-webui/open-webui) project by [Timothy Jaeryang Baek](https://github.com/tjbck).
+> **Real talk**: This is a fork of the OG [Open WebUI](https://github.com/open-webui/open-webui) project by the legend [Timothy Jaeryang Baek](https://github.com/tjbck) 🙌
 
-**What this means:**
-- ✅ Same core functionality and features as the original
-- 🔄 May include additional customizations or experimental features
-- 📍 For official releases and main development, visit the [original repository](https://github.com/open-webui/open-webui)
-- 💬 For general support, use the original project's [Discord community](https://discord.gg/5rJgQTnV4s)
+**Here's the tea:**
+- ✅ Same fire features as the original (no 🧢)
+- 🔄 Might have some extra sauce or experimental features we're cooking up
+- 📍 For the official releases and main development, hit up the [original repo](https://github.com/open-webui/open-webui)
+- 💬 Need help? The [Discord community](https://discord.gg/5rJgQTnV4s) is where it's at
 
 ---
 
 ## ✨ What is Open WebUI?
 
-**Open WebUI** is an [extensible](https://docs.openwebui.com/features/plugin/), feature-rich, and user-friendly **self-hosted AI platform** designed to operate entirely offline. It supports various LLM runners including **Ollama** and **OpenAI-compatible APIs**, with a **built-in inference engine** for RAG, making it a powerful AI deployment solution.
+**Open WebUI** is basically the AI platform that hits different 🎯. It's [extensible](https://docs.openwebui.com/features/plugin/), absolutely loaded with features, and honestly? It just works. This **self-hosted AI platform** runs completely offline (privacy queen energy 👑) and vibes with **Ollama**, **OpenAI-compatible APIs**, plus has its own **built-in inference engine** for RAG. It's giving main character energy for AI deployments, fr.
 
 <div align="center">
 
@@ -37,47 +39,47 @@
 </div>
 
 > [!TIP]  
-> **Looking for an [Enterprise Plan](https://docs.openwebui.com/enterprise)?** – **[Speak with Our Sales Team Today!](mailto:sales@openwebui.com)**
+> **Looking for an [Enterprise Plan](https://docs.openwebui.com/enterprise)?** – **[Let's talk business! 💼](mailto:sales@openwebui.com)**
 >
-> Get **enhanced capabilities**, including **custom theming and branding**, **Service Level Agreement (SLA) support**, **Long-Term Support (LTS) versions**, and **more!**
+> Level up with **enhanced capabilities** including **custom theming and branding**, **Service Level Agreement (SLA) support**, **Long-Term Support (LTS) versions**, and **so much more!**
 
-📚 **Documentation**: [docs.openwebui.com](https://docs.openwebui.com/) | 💬 **Community**: [Discord](https://discord.gg/5rJgQTnV4s)
+📚 **Docs**: [docs.openwebui.com](https://docs.openwebui.com/) | 💬 **Community**: [Discord](https://discord.gg/5rJgQTnV4s) (where the cool kids hang)
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Quick Start (Let's Get This Bread!)
 
-### Option 1: Docker (Recommended)
+### Option 1: Docker (The Move 💯)
 
 ```bash
-# With Ollama on your computer
+# With Ollama on your computer (this setup is *chef's kiss*)
 docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway \
   -v open-webui:/app/backend/data --name open-webui --restart always \
   ghcr.io/open-webui/open-webui:main
 ```
 
 ```bash
-# OpenAI API only
+# OpenAI API only (straight to the point)
 docker run -d -p 3000:8080 -e OPENAI_API_KEY=your_secret_key \
   -v open-webui:/app/backend/data --name open-webui --restart always \
   ghcr.io/open-webui/open-webui:main
 ```
 
-### Option 2: Python pip
+### Option 2: Python pip (For the OGs)
 
 ```bash
 pip install open-webui
 open-webui serve
 ```
 
-**Access**: [http://localhost:3000](http://localhost:3000) (Docker) or [http://localhost:8080](http://localhost:8080) (pip)
+**Time to vibe**: [http://localhost:3000](http://localhost:3000) (Docker) or [http://localhost:8080](http://localhost:8080) (pip)
 
 > [!NOTE]  
-> **Need more options?** See our comprehensive [Installation Guide](./INSTALLATION.md) for Docker Compose, Kubernetes, GPU support, and advanced configurations.
+> **Want more options?** Our [Installation Guide](./INSTALLATION.md) has the full menu - Docker Compose, Kubernetes, GPU support, and all the advanced configs your heart desires ✨
 
 ---
 
-## ⭐ Key Features
+## ⭐ Key Features (This Thing is STACKED!)
 
 <div align="center">
 <table>
@@ -85,19 +87,19 @@ open-webui serve
 <td valign="top">
 
 ### 🛠️ **Setup & Integration**
-- 🚀 **Effortless Setup**: Docker/Kubernetes support
-- 🤝 **Multiple APIs**: Ollama, OpenAI, LMStudio, GroqCloud
-- 📱 **PWA Support**: Native mobile app experience
-- 🔄 **SCIM 2.0**: Enterprise user provisioning
+- 🚀 **Effortless Setup**: Docker/Kubernetes support (it just works, no cap)
+- 🤝 **Multiple APIs**: Ollama, OpenAI, LMStudio, GroqCloud (all the good stuff)
+- 📱 **PWA Support**: Native mobile app experience (your phone will thank you)
+- 🔄 **SCIM 2.0**: Enterprise user provisioning (fancy business things)
 
 </td>
 <td valign="top">
 
 ### 🤖 **AI Capabilities**
-- ⚙️ **Multi-Model Chat**: Parallel model conversations
-- 📚 **Local RAG**: Document integration with `#` command
-- 🔍 **Web Search**: Multiple search providers
-- 🐍 **Python Functions**: Built-in code editor
+- ⚙️ **Multi-Model Chat**: Parallel model conversations (like group chat but with AIs)
+- 📚 **Local RAG**: Document integration with `#` command (your docs, but smart)
+- 🔍 **Web Search**: Multiple search providers (Google who?)
+- 🐍 **Python Functions**: Built-in code editor (code while you chat, lowkey genius)
 
 </td>
 </tr>
@@ -105,32 +107,32 @@ open-webui serve
 <td valign="top">
 
 ### 🎨 **User Experience**
-- 📱 **Responsive Design**: Desktop, laptop, mobile
-- ✒️ **Markdown/LaTeX**: Full formatting support
-- 🎤 **Voice/Video**: Hands-free communication
-- 🌐 **Multilingual**: i18n support
+- 📱 **Responsive Design**: Desktop, laptop, mobile (looks good everywhere, periodt)
+- ✒️ **Markdown/LaTeX**: Full formatting support (make it pretty)
+- 🎤 **Voice/Video**: Hands-free communication (talk to your AI bestie)
+- 🌐 **Multilingual**: i18n support (speaks your language, literally)
 
 </td>
 <td valign="top">
 
 ### 🔐 **Security & Control**
-- 🛡️ **Granular Permissions**: User groups & roles
-- 🔐 **RBAC**: Role-based access control
-- 🌐 **Web Browsing**: Safe URL integration
-- 🎨 **Image Generation**: DALL-E, ComfyUI support
+- 🛡️ **Granular Permissions**: User groups & roles (you're the main character)
+- 🔐 **RBAC**: Role-based access control (keeping things secure, as it should be)
+- 🌐 **Web Browsing**: Safe URL integration (browse without the stress)
+- 🎨 **Image Generation**: DALL-E, ComfyUI support (AI art goes brrr)
 
 </td>
 </tr>
 </table>
 </div>
 
-> **Learn more**: Comprehensive feature overview at [docs.openwebui.com/features](https://docs.openwebui.com/features)
+> **Learn more**: Full feature deep-dive at [docs.openwebui.com/features](https://docs.openwebui.com/features) (trust me, there's even more)
 
 ---
 
-## 🙌 Sponsors
+## 🙌 Sponsors (The Real Ones!)
 
-> **Note**: These sponsors support the original [Open WebUI project](https://github.com/open-webui/open-webui). We acknowledge their valuable contribution to the open-source community.
+> **Shoutout**: These sponsors keep the original [Open WebUI project](https://github.com/open-webui/open-webui) running. Mad respect for supporting the open-source community 🫡
 
 <div align="center">
 <table>
@@ -155,35 +157,35 @@ open-webui serve
 
 ---
 
-## 📖 Documentation & Resources
+## 📖 Documentation & Resources (Your Survival Guide)
 
 <div align="center">
 <table>
 <tr>
-<td align="center">📚<br><strong><a href="https://docs.openwebui.com/">Official Documentation</a></strong><br><em>Complete guides & API reference</em></td>
-<td align="center">🚀<br><strong><a href="./INSTALLATION.md">Installation Guide</a></strong><br><em>Detailed setup instructions</em></td>
-<td align="center">🛠️<br><strong><a href="./TROUBLESHOOTING.md">Troubleshooting</a></strong><br><em>Common issues & solutions</em></td>
+<td align="center">📚<br><strong><a href="https://docs.openwebui.com/">Official Documentation</a></strong><br><em>Complete guides & API reference (your new best friend)</em></td>
+<td align="center">🚀<br><strong><a href="./INSTALLATION.md">Installation Guide</a></strong><br><em>Step-by-step setup instructions (we got you covered)</em></td>
+<td align="center">🛠️<br><strong><a href="./TROUBLESHOOTING.md">Troubleshooting</a></strong><br><em>Common issues & solutions (for when things get spicy)</em></td>
 </tr>
 <tr>
-<td align="center">💬<br><strong><a href="https://discord.gg/5rJgQTnV4s">Discord Community</a></strong><br><em>Get help & share ideas</em></td>
-<td align="center">🌟<br><strong><a href="https://docs.openwebui.com/roadmap/">Roadmap</a></strong><br><em>Upcoming features</em></td>
-<td align="center">🤝<br><strong><a href="./docs/CONTRIBUTING.md">Contributing</a></strong><br><em>Join the development</em></td>
+<td align="center">💬<br><strong><a href="https://discord.gg/5rJgQTnV4s">Discord Community</a></strong><br><em>Get help & share ideas (the squad is here for you)</em></td>
+<td align="center">🌟<br><strong><a href="https://docs.openwebui.com/roadmap/">Roadmap</a></strong><br><em>Upcoming features (spoiler alert: it's fire)</em></td>
+<td align="center">🤝<br><strong><a href="./docs/CONTRIBUTING.md">Contributing</a></strong><br><em>Join the development (become part of the story)</em></td>
 </tr>
 </table>
 </div>
 
 ---
 
-## 💬 Support & Community
+## 💬 Support & Community (We Got Your Back!)
 
 ### For This Fork
-- 🐛 **Issues**: Open issues in this repository for fork-specific problems
-- 💡 **Features**: Fork-specific feature requests and discussions
+- 🐛 **Issues**: Found a bug in our fork? Drop it in this repo's issues (we're on it)
+- 💡 **Features**: Got ideas for this fork? Let's brainstorm together!
 
-### For General Open WebUI Support
-- 💬 **Community**: Join the [Open WebUI Discord](https://discord.gg/5rJgQTnV4s)
-- 📚 **Documentation**: Browse [docs.openwebui.com](https://docs.openwebui.com/)
-- 🐛 **Original Issues**: Check [open-webui/open-webui](https://github.com/open-webui/open-webui/issues)
+### For General Open WebUI Vibes
+- 💬 **Community**: Join the [Open WebUI Discord](https://discord.gg/5rJgQTnV4s) (where the magic happens)
+- 📚 **Documentation**: Browse [docs.openwebui.com](https://docs.openwebui.com/) (all the answers you need)
+- 🐛 **Original Issues**: Check [open-webui/open-webui](https://github.com/open-webui/open-webui/issues) (for the OG repo stuff)
 
 ---
 
@@ -195,7 +197,7 @@ This project is licensed under the [Open WebUI License](LICENSE), a revised BSD-
 
 ## 🌟 What's Next?
 
-Discover upcoming features on the [Open WebUI Roadmap](https://docs.openwebui.com/roadmap/). This fork may include additional features or follow a different development timeline.
+Peep the future at the [Open WebUI Roadmap](https://docs.openwebui.com/roadmap/) (spoiler: it's about to be even more incredible). This fork might have some extra goodies cooking or might be vibing to a different timeline ✨
 
 ---
 
@@ -215,8 +217,8 @@ Discover upcoming features on the [Open WebUI Roadmap](https://docs.openwebui.co
 
 <div align="center">
 
-**Original Open WebUI created by [Timothy Jaeryang Baek](https://github.com/tjbck)**
+**Original Open WebUI created by [Timothy Jaeryang Baek](https://github.com/tjbck)** 👑
 
-*Let's make Open WebUI even more amazing together!* 💪
+*Let's make Open WebUI even more fire together!* 🔥💪
 
 </div>
