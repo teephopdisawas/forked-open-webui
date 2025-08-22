@@ -139,7 +139,7 @@
 						{$i18n.t('You')}
 					{/if}
 
-					{#if message.timestamp}
+					{#if message.timestamp && ($settings?.showMessageTimestamps ?? true)}
 						<div
 							class=" self-center text-xs invisible group-hover:visible text-gray-400 font-medium first-letter:capitalize ml-0.5 translate-y-[1px]"
 						>
@@ -150,7 +150,7 @@
 					{/if}
 				</Name>
 			</div>
-		{:else if message.timestamp}
+		{:else if message.timestamp && ($settings?.showMessageTimestamps ?? true)}
 			<div class="flex justify-end pr-2 text-xs">
 				<div
 					class="text-[0.65rem] invisible group-hover:visible text-gray-400 font-medium first-letter:capitalize mb-0.5"

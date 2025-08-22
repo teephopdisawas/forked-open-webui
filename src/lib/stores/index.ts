@@ -181,6 +181,7 @@ type Settings = {
 	responseAutoPlayback?: boolean;
 	audio?: AudioSettings;
 	showUsername?: boolean;
+	showMessageTimestamps?: boolean;
 	notificationEnabled?: boolean;
 	highContrastMode?: boolean;
 	title?: TitleSettings;
