@@ -53,9 +53,9 @@
 <div class="flex w-full gap-2 items-center">
 	<Tooltip
 		className="w-full relative"
-		content={$i18n.t(`WebUI will make requests to "{{url}}/chat/completions"`, {
-			url
-		})}
+		content={url.includes('localhost:1234') || url.includes('127.0.0.1:1234')
+			? $i18n.t('LMStudio server at "{{url}}" - make sure LMStudio is running with server enabled', { url })
+			: $i18n.t(`WebUI will make requests to "{{url}}/chat/completions"`, { url })}
 		placement="top-start"
 	>
 		{#if !(config?.enable ?? true)}

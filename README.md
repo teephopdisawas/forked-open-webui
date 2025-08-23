@@ -89,6 +89,7 @@ open-webui serve
 ### 🛠️ **Setup & Integration**
 - 🚀 **Effortless Setup**: Docker/Kubernetes support (it just works, no cap)
 - 🤝 **Multiple APIs**: Ollama, OpenAI, LMStudio, GroqCloud (all the good stuff)
+- 🏠 **LMStudio Integration**: Easy preset for local models (privacy queen energy)
 - 📱 **PWA Support**: Native mobile app experience (your phone will thank you)
 - 🔄 **SCIM 2.0**: Enterprise user provisioning (fancy business things)
 
@@ -168,8 +169,12 @@ open-webui serve
 </tr>
 <tr>
 <td align="center">💬<br><strong><a href="https://discord.gg/5rJgQTnV4s">Discord Community</a></strong><br><em>Get help & share ideas (the squad is here for you)</em></td>
-<td align="center">🌟<br><strong><a href="https://docs.openwebui.com/roadmap/">Roadmap</a></strong><br><em>Upcoming features (spoiler alert: it's fire)</em></td>
+<td align="center">🏠<br><strong><a href="./docs/LMSTUDIO_SETUP.md">LMStudio Setup</a></strong><br><em>Connect to LMStudio for local models (privacy first!)</em></td>
 <td align="center">🤝<br><strong><a href="./docs/CONTRIBUTING.md">Contributing</a></strong><br><em>Join the development (become part of the story)</em></td>
+</tr>
+<tr>
+<td align="center">🌟<br><strong><a href="https://docs.openwebui.com/roadmap/">Roadmap</a></strong><br><em>Upcoming features (spoiler alert: it's fire)</em></td>
+<td colspan="2"></td>
 </tr>
 </table>
 </div>

@@ -47,6 +47,30 @@
 	let modelIds = [];
 
 	let loading = false;
+	let selectedPreset = '';
+
+	// Connection presets for common services
+	const connectionPresets = {
+		'': { name: 'Custom', url: '', key: '', description: 'Enter custom connection details' },
+		lmstudio: {
+			name: 'LMStudio',
+			url: 'http://localhost:1234/v1',
+			key: 'lm-studio',
+			description: 'Connect to LMStudio running locally (default port 1234)'
+		},
+		'openai': {
+			name: 'OpenAI',
+			url: 'https://api.openai.com/v1',
+			key: '',
+			description: 'OpenAI GPT models (requires API key)'
+		},
+		'ollama': {
+			name: 'Ollama (External)',
+			url: 'http://localhost:11434',
+			key: '',
+			description: 'Connect to Ollama running externally'
+		}
+	};
 
 	const verifyOllamaHandler = async () => {
 		// remove trailing slash from url
@@ -85,6 +109,15 @@
 
 		if (res) {
 			toast.success($i18n.t('Server connection verified'));
+		}
+	};
+
+	const applyPreset = (presetKey) => {
+		selectedPreset = presetKey;
+		const preset = connectionPresets[presetKey];
+		if (preset) {
+			url = preset.url;
+			key = preset.key;
 		}
 	};
 
@@ -179,6 +212,23 @@
 				azure = connection.config?.azure ?? false;
 				apiVersion = connection.config?.api_version ?? '';
 			}
+			
+			// Try to detect preset from URL
+			selectedPreset = '';
+			for (const [key, preset] of Object.entries(connectionPresets)) {
+				if (key !== '' && url === preset.url) {
+					selectedPreset = key;
+					break;
+				}
+			}
+		} else {
+			// Reset to defaults when not editing
+			selectedPreset = '';
+			url = '';
+			key = '';
+			prefixId = '';
+			tags = [];
+			modelIds = [];
 		}
 	};
 
@@ -242,6 +292,36 @@
 											{/if}
 										</button>
 									</div>
+								</div>
+							</div>
+						{/if}
+
+						{#if !ollama}
+							<div class="flex gap-2 mt-2">
+								<div class="flex flex-col w-full">
+									<label
+										for="preset-selector"
+										class={`mb-0.5 text-xs text-gray-500
+									${($settings?.highContrastMode ?? false) ? 'text-gray-800 dark:text-gray-100' : ''}`}
+										>{$i18n.t('Connection Preset')}</label
+									>
+									
+									<select
+										id="preset-selector"
+										class={`w-full text-sm bg-transparent border border-gray-300 dark:border-gray-600 rounded-lg px-2 py-1.5 ${($settings?.highContrastMode ?? false) ? 'text-gray-800 dark:text-gray-100' : 'text-gray-700 dark:text-gray-300'}`}
+										bind:value={selectedPreset}
+										on:change={(e) => applyPreset(e.target.value)}
+									>
+										{#each Object.entries(connectionPresets) as [key, preset]}
+											<option value={key}>{preset.name}</option>
+										{/each}
+									</select>
+									
+									{#if connectionPresets[selectedPreset]?.description}
+										<div class={`mt-1 text-xs text-gray-400 ${($settings?.highContrastMode ?? false) ? 'text-gray-700 dark:text-gray-200' : ''}`}>
+											{connectionPresets[selectedPreset].description}
+										</div>
+									{/if}
 								</div>
 							</div>
 						{/if}
